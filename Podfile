@@ -7,7 +7,8 @@ def commonPods
     use_frameworks!
     # Pods for weather
     pod 'Alamofire', '~> 4.4'
-    
+    pod 'Firebase/Core'
+    pod 'Firebase/Messaging'
     end
 
 target 'weather' do
